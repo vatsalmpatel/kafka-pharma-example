@@ -54,7 +54,7 @@ try:
         producer.produce(
             topic = topic_name,
             key = message_key,
-            value = json_payloadc,
+            value = json_payload,
             callback = safe_delivery_report
         )
 
